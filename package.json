@@ -1,0 +1,51 @@
+{
+  "main": "index.js",
+  "name": "spark-bundle-plugin",
+  "author": {
+    "name": "Hugh Fitzpatrick",
+    "url": "https://github.com/FitzerIRL"
+  },
+  "contributors": [
+    {
+      "name": "Hugh Fitzpatrick",
+      "url": "https://github.com/FitzerIRL"
+    }
+  ],
+  "deprecated": false,
+  "description": "Bundle plugin for Spark (www.pxscene.org) - to support WebPack builds.",
+  "version": "1.0.6",
+  "keywords": [
+    "bash",
+    "Spark",
+    "loader",
+    "resource",
+    "file"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "test"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.20.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "process": "^0.11.10",
+    "remove-comments": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack-shell-plugin": "^0.5.0",
+    "webpack-sources": "^1.3.0"
+  }
+}
